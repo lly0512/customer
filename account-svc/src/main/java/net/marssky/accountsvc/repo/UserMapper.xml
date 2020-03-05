@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.marssky.accountsvc.repo.UserRepo">
+    <resultMap id="userMap" type="net.marssky.accountsvc.model.User">
+        <id property="userId" column="user_id"></id>
+        <result property="userName" column="user_name"/>
+        <result property="userPassword" column="user_password"/>
+    </resultMap>
+    <select id="getUsers" resultMap="userMap">
+        select user_id,user_name,user_password from user
+    </select>
+</mapper>
