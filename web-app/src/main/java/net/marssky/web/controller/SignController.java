@@ -1,6 +1,7 @@
 package net.marssky.web.controller;
 
 import net.marssky.web.dto.Account;
+import net.marssky.web.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.core.ParameterizedTypeReference;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -48,6 +50,9 @@ public class SignController {
         RestTemplate restTemplate = restTemplateBuilder.build();
         String url = "http://localhost:9000/account-svc/v1/account/get_accounts";
         HttpEntity<Account> body=new HttpEntity<>(account);
+        ParameterizedTypeReference<List<User>> typeReference =
+                new ParameterizedTypeReference<List<User>>() {
+                };
         String result = restTemplate.postForObject(url,body,String.class);
         System.out.println(account.getEmail());
         if ("success".equalsIgnoreCase(result)) {
