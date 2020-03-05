@@ -1,0 +1,38 @@
+INFO 2020-03-05 11:09:17 n.m.a.AccountSvcApplication.logStarting 55 :Starting AccountSvcApplication on LAPTOP-72TCDVSV with PID 9080 (D:\idear\customer\account-svc\target\classes started by 86147 in D:\idear\customer)
+INFO 2020-03-05 11:09:17 n.m.a.AccountSvcApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-03-05 11:09:18 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-03-05 11:09:18 o.a.c.core.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-03-05 11:09:18 o.a.c.core.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-03-05 11:09:18 o.a.c.c.C.[.[.[/account-svc].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-03-05 11:09:18 o.s.web.context.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 989 ms
+INFO 2020-03-05 11:09:18 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-03-05 11:09:18 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/account-svc'
+INFO 2020-03-05 11:09:18 n.m.a.AccountSvcApplication.logStarted 61 :Started AccountSvcApplication in 1.818 seconds (JVM running for 2.609)
+INFO 2020-03-05 11:12:27 o.a.c.c.C.[.[.[/account-svc].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-03-05 11:12:27 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-03-05 11:12:27 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 12 ms
+INFO 2020-03-05 11:12:27 n.m.a.c.AccountController.CreateAccount 28 :调用账户服务模块的createAccount方法来注册
+INFO 2020-03-05 11:12:27 n.m.a.c.AccountController.CreateAccount 29 :22@qq.com
+INFO 2020-03-05 11:12:27 n.m.a.c.AccountController.CreateAccount 31 :查询
+INFO 2020-03-05 11:12:27 c.z.hikari.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-03-05 11:12:27 c.z.hikari.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-03-05 16:22:03 n.m.a.AccountSvcApplication.logStarting 55 :Starting AccountSvcApplication on LAPTOP-72TCDVSV with PID 2328 (D:\idear\customer\account-svc\target\classes started by 86147 in D:\idear\customer)
+INFO 2020-03-05 16:22:03 n.m.a.AccountSvcApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-03-05 16:22:03 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-03-05 16:22:03 o.a.c.core.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-03-05 16:22:03 o.a.c.core.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.31]
+INFO 2020-03-05 16:22:03 o.a.c.c.C.[.[.[/account-svc].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-03-05 16:22:03 o.s.web.context.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 853 ms
+INFO 2020-03-05 16:22:04 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-03-05 16:22:04 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/account-svc'
+INFO 2020-03-05 16:22:04 n.m.a.AccountSvcApplication.logStarted 61 :Started AccountSvcApplication in 1.45 seconds (JVM running for 2.183)
+INFO 2020-03-05 16:22:12 o.a.c.c.C.[.[.[/account-svc].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-03-05 16:22:12 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-03-05 16:22:12 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 4 ms
+INFO 2020-03-05 16:22:12 n.m.a.c.AccountController.CreateAccount 32 :hello spring boot
+INFO 2020-03-05 16:22:12 n.m.a.c.AccountController.CreateAccount 33 :调用账户服务模块的createAccount方法来注册
+INFO 2020-03-05 16:22:12 n.m.a.c.AccountController.CreateAccount 34 :22@qq.com
+INFO 2020-03-05 16:22:12 n.m.a.c.AccountController.CreateAccount 36 :查询
+INFO 2020-03-05 16:22:12 c.z.hikari.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-03-05 16:22:12 c.z.hikari.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-03-05 16:22:12 n.m.a.c.AccountController.CreateAccount 38 :[net.marssky.accountsvc.model.User@793c560f, net.marssky.accountsvc.model.User@102a857b]
